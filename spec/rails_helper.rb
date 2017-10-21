@@ -28,6 +28,7 @@ if ActiveRecord::Migrator.needs_migration?
 end
 
 ActiveRecord::Migration.check_pending!
+
 # If you are not using ActiveRecord, you can remove this line.
 ActiveRecord::Migration.maintain_test_schema!
 
